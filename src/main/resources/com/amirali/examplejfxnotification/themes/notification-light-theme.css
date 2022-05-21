@@ -1,5 +1,6 @@
 #root {
     -fx-background-color: white;
+    -fx-background-radius: 5px;
     -fx-background-insets: 5;
     -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
 }
@@ -11,4 +12,16 @@
 
 #message {
     -fx-font-size : 16px;
+}
+
+#close {
+    -fx-background-color: transparent;
+    -fx-background-image: url('../icons/round_close_black_24dp.png');
+    -fx-background-size: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+}
+
+#close: hover {
+    -fx-background-color: #C7C7C7;
 }

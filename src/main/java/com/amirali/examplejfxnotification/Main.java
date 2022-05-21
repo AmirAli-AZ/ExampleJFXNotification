@@ -29,7 +29,7 @@ public class Main extends Application {
             try {
                 var notification = new Notification(
                         "Example custom notification",
-                        "This example shows you how to create custom notification in javafx without any library"
+                        "This example shows you how to create custom notification in javafx without using any library"
                 );
                 notification.show(primaryStage);
             } catch (IOException e) {
