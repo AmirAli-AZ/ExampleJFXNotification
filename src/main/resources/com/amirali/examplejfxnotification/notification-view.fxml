@@ -14,7 +14,7 @@
       <HBox alignment="CENTER_LEFT" spacing="5.0">
          <children>
             <Label id="title" fx:id="title" maxWidth="1.7976931348623157E308" text="Title" HBox.hgrow="ALWAYS" />
-            <Button id="close" fx:id="close" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" HBox.hgrow="ALWAYS" />
+            <Button id="close" fx:id="close" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0"/>
          </children>
       </HBox>
       <Label id="message" fx:id="message" alignment="TOP_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Message" wrapText="true" VBox.vgrow="ALWAYS">
